@@ -1,6 +1,6 @@
-Simple Blob Trigger that broadcasts when a file is dropped using serverless signalr. This is shown in a simple react UI.
+Simple Blob Trigger function that broadcasts when a file is added to storage using serverless signalr. There is a simple react UI that subscribes and will show the boradcasted file link.
 
-You will need to have created azure storage with a public container of media and serverless signalr and set the following as vars in the function:
+You will need to have created azure storage with a public container of media and serverless signalr. You must also set the following as vars in the function:
 
 * StorageConnectionString  
 * AzureSignalRConnectionString  
