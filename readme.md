@@ -5,9 +5,9 @@ You will need to have created azure storage with a public container of media and
 * StorageConnectionString  
 * AzureSignalRConnectionString  
 
-The functions and UI run locally thought AzureSignalR needs to be the hosted version in Azure (set to serverless). 
+The functions and UI run locally though you need to setup [Azure SignalR](https://docs.microsoft.com/en-us/azure/azure-signalr/signalr-quickstart-azure-functions-javascript#create-an-azure-signalr-service-instance) and run it in Azure (set to serverless as per the guide). 
 
-To run the use use `yarn start` from the UI folder to run the functions use the launcher.
+To run the UI run `yarn start` from the UI folder and to run the functions use the launcher. Any errors are shown in the console.
 
 Once running any files dropped in to the media folder will show as links on the page without the page needing to be refreshed.
 
